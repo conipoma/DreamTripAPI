@@ -5,7 +5,6 @@ const { conexion_db } = require('./bdConfig');
 
 
 //CONFIGURACIONES DE PASSPORT JS (MODULAR DESDE ACÁ HASTA DESERIALIZACIÓN)
-
 //Controlador de Logueo, chequea el login
 passport.use('local.login', new localStrategy({
     usernameField: 'email_usuario',
